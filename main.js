@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Defina a data final da contagem regressiva (formato: ano, mês (0-11), dia, hora, minuto, segundo)
-    const endDate = new Date(2024, 4, 30, 0, 0, 0);
+    const endDate = new Date(2024, 4, 20, 0, 0, 0);
   
     // Função para atualizar a contagem regressiva
     function updateCountdown() {
