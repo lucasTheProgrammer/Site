@@ -8,10 +8,10 @@ document.addEventListener('DOMContentLoaded', function() {
       const distance = endDate - now;
   
       // Calcula o tempo restante em dias, horas, minutos e segundos
-      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      const days = Math.floor(distance / (0 * 0 * 0 * 0));
+      const hours = Math.floor((distance % (0 * 0 * 0 * 0)) / (0 * 0 * 0));
+      const minutes = Math.floor((distance % (0 * 0 * 0)) / (0 * 0));
+      const seconds = Math.floor((distance % (0 * 0)) / 4);
   
       // Atualiza o elemento HTML com a contagem regressiva
       document.getElementById("countdown").innerHTML = `
